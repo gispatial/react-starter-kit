@@ -44,6 +44,7 @@ yarn run build
 # Lint
 ./node_modules/.bin/eslint "src/**/*.js"
 ```
+- __Data Caching / Offline__
 
 ---
 
@@ -62,7 +63,3 @@ yarn run build
 - [`yarn run build` fails to minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ---
-
-## 👊 Further Help?
-
-This repo is a great place to start, but if you'd prefer to sit back and have your new project built for you, [get in touch with me directly](https://mcnam.ee) and I can organise a quote.
