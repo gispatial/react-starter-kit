@@ -33,7 +33,7 @@ const Header = () => {
           <Nav className="ml-auto" navbar>
             <NavItem>
               <Link className={`nav-link ${window.location.pathname === '/' && 'active'}`} to="/">
-                <span>Home</span>
+                <span>Dashboard</span>
               </Link>
             </NavItem>
             <NavItem>
@@ -41,7 +41,7 @@ const Header = () => {
                 className={`nav-link ${window.location.pathname.startsWith('/article') && 'active'}`}
                 to="/articles/"
               >
-                <span>Articles</span>
+                <span>Profil</span>
               </Link>
             </NavItem>
             <NavItem>
@@ -49,7 +49,7 @@ const Header = () => {
                 className={`nav-link ${window.location.pathname.startsWith('/example-form') && 'active'}`}
                 to="/example-form/"
               >
-                <span>Form</span>
+                <span>Lupa Kata Laluan</span>
               </Link>
             </NavItem>
           </Nav>

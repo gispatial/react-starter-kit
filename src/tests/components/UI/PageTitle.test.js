@@ -7,7 +7,7 @@ import PageTitle from '../../../components/UI/PageTitle';
 it('<PageTitle /> renders correctly', () => {
   const Component = (
     <MemoryRouter>
-      <PageTitle title="Hello World" />
+      <PageTitle title="Hello Selangor" />
     </MemoryRouter>
   );
 
@@ -17,5 +17,5 @@ it('<PageTitle /> renders correctly', () => {
 
   // Has the correct text on the page
   const { getByText } = render(Component);
-  expect(getByText('Hello World')).toBeInTheDocument();
+  expect(getByText('Hello Selangor')).toBeInTheDocument();
 });

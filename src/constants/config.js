@@ -13,7 +13,7 @@ if (host.includes('stage.')) env = 'stage';
  */
 export default {
   // App Details
-  appName: 'ReactStarterKit',
+  appName: 'SSIPR',
 
   // Build Configuration - eg. Debug or Release?
   isDevEnv: (env === 'development'),

@@ -15,7 +15,7 @@ const MobileTabBar = () => (
       <NavItem>
         <Link className={`nav-link ${window.location.pathname === '/' ? 'active' : ''}`} to="/">
           <FontAwesomeIcon icon={faTachometerAlt} />
-          <span>Home</span>
+          <span>Dashboard</span>
         </Link>
       </NavItem>
       <NavItem>
@@ -24,7 +24,7 @@ const MobileTabBar = () => (
           to="/articles/"
         >
           <FontAwesomeIcon icon={faPalette} />
-          <span>Articles</span>
+          <span>Profil</span>
         </Link>
       </NavItem>
       <NavItem>
@@ -33,7 +33,7 @@ const MobileTabBar = () => (
           to="/example-form/"
         >
           <FontAwesomeIcon icon={faMoneyBillWave} />
-          <span>Form</span>
+          <span>Lupa Katalaluan</span>
         </Link>
       </NavItem>
     </Nav>

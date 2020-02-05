@@ -29,7 +29,7 @@ Template.propTypes = {
 };
 
 Template.defaultProps = {
-  pageTitle: 'ReactStarterKit',
+  pageTitle: 'InisiatifPeduliRakyat',
   noPadding: false,
 };
 

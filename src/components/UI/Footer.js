@@ -6,7 +6,7 @@ const Footer = () => (
     <Container>
       <Row>
         <Col>
-          <p className="text-center text-secondary">&copy; ReactStarterKit. All Rights Reserved.</p>
+          <p className="text-center text-secondary">&copy; 2020. SSIPR. Hakcipta Terpelihara.</p>
         </Col>
       </Row>
     </Container>

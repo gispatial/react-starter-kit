@@ -10,51 +10,53 @@ import {
 import Template from './Templates/Dashboard';
 
 const About = () => (
-  <Template pageTitle="Hello World" noPadding>
+  <Template pageTitle="Salam Warga Selangor!" noPadding>
     <React.Fragment>
       <Container>
-        <Row className="mb-2 mt-md-5">
-          <Jumbotron className="bg-primary text-white rounded-0">
-            <h2>Lorem Ipsum is simply dummy text.</h2>
-            <p className="lead">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a type specimen book.
-              It has survived not only five centuries.
-            </p>
-          </Jumbotron>
-        </Row>
         <Row>
           <Col md="4" className="mt-3">
             <h3>
               <FontAwesomeIcon icon={faTachometerAlt} />
               {' '}
-              Lorem Ipsum
+              Sistem Smart Inisiatif Peduli Rakyat
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <img src="http://gispatial.tech/wp-content/uploads/2020/02/res.png" width="100%" />
+            <p></p>
+
+              <Row className="mb-2 mt-md-5">
+                <Jumbotron className="bg-danger text-white rounded-0">
+                  <h2>Tahniah !</h2>
+                  <p className="lead">
+                    Serta Terima Kasih kerana Menggunakan Aplikasi Ini. Manfaat istimewa untuk warga Selangor yang layak dan LAHIR hingga AKHIR HAYAT!
+                  </p>
+                </Jumbotron>
+              </Row>
+            <p>Status Permohonan.</p>
+            <p><Link to="/articles" className="btn btn-primary">0 IPR Dimohon</Link></p>
+            <p><Link to="/articles" className="btn btn-primary">0 IPR Lulus</Link></p>
+            <p><Link to="/articles" className="btn btn-primary">0 IPR Ditolak</Link></p>
+            <p><Link to="/articles" className="btn btn-primary">0 IPR Notifikasi</Link></p>
+
+            <p><Link to="/articles" className="btn btn-primary">8 IPR Ditawarkan</Link></p>
           </Col>
           <Col md="4" className="mt-3">
             <h3>
               <FontAwesomeIcon icon={faPalette} />
               {' '}
-              Lorem Ipsum
+              Senarai Program Dipohon
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <p>Status Permohonan.</p>
+            <p><Link to="/articles" className="btn btn-primary">Tiada</Link></p>
           </Col>
           <Col md="4" className="mt-3">
             <h3>
               <FontAwesomeIcon icon={faMoneyBillWave} />
               {' '}
-              Lorem Ipsum
+              Skim Peduli Sihat (SPR)
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <img src="http://gispatial.tech/wp-content/uploads/2020/02/icon_ssipr_kesihatan_skim_peduli_sihat.png" width="100%" />
+            <p>klik tombol untuk menyemak status.</p>
+            <p><Link to="/articles" className="btn btn-primary">Semak</Link></p>
           </Col>
         </Row>
         <Row>
@@ -62,54 +64,38 @@ const About = () => (
             <h3>
               <FontAwesomeIcon icon={faCertificate} />
               {' '}
-              Lorem Ipsum
+              Skim Rumah Selangorku
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <img src="http://gispatial.tech/wp-content/uploads/2020/02/rumahsgor.jpg" width="100%" />
+            <p>klik tombol untuk menyemak status.</p>
+            <p><Link to="/articles" className="btn btn-primary">Semak</Link></p>
           </Col>
           <Col md="4" className="mt-3">
             <h3>
               <FontAwesomeIcon icon={faPlus} />
               {' '}
-              Lorem Ipsum
+              Bantuan Sihat Selangor
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <img src="http://gispatial.tech/wp-content/uploads/2020/02/icon_ssipr_kesihatan_bantuan_sihat_selangor.png" width="100%" />
+            <p>klik tombol untuk menyemak status.</p>
+            <p><Link to="/articles" className="btn btn-primary">Semak</Link></p>
           </Col>
           <Col md="4" className="mt-3">
             <h3>
               <FontAwesomeIcon icon={faUserCircle} />
               {' '}
-              Lorem Ipsum
+              Skim Kesihatan Wanita (Mammosel)
             </h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p><Link to="/articles" className="btn btn-primary">Learn More</Link></p>
+            <img src="http://gispatial.tech/wp-content/uploads/2020/02/icon_ssipr_kesihatan_-_skim_kesihatan_wanita.png" width="100%" />
+            <p>klik tombol untuk menyemak status.</p>
+            <p><Link to="/articles" className="btn btn-primary">Semak</Link></p>
           </Col>
         </Row>
       </Container>
 
       <hr className="mt-5" />
 
-      <Container>
-        <Row className="py-5">
-          <Col xs={{ size: 6, offset: 3 }} lg={{ size: 2, offset: 2 }} className="text-center">
-            <img className="img-fluid rounded-circle d-inline-block" src="https://avatars0.githubusercontent.com/u/1809236?s=460&v=4" alt="Matt Mcnamee" />
-          </Col>
-          <Col lg="5" className="mt-4 text-center text-lg-left">
-            <h3>I can help</h3>
-            <p>
-              This repo is a great place to start, but if you'd prefer to sit back and have your new
-              project built for you,
-              {' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://mcnam.ee">
-                get in touch with me directly
-              </a>
-              {' '}
-              and I'll provide a quote.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+
     </React.Fragment>
   </Template>
 );

@@ -36,7 +36,7 @@ Array [
             fill="#fff"
           />
         </svg>
-        ReactStarterKit
+        SSIPR
       </a>
       <button
         aria-label="Toggle navigation"
@@ -133,7 +133,7 @@ Array [
               className="card-body"
             >
               Posted
-               
+
               22nd June
               <hr />
               <div
@@ -277,7 +277,7 @@ Array [
           <p
             className="text-center text-secondary"
           >
-            © ReactStarterKit. All Rights Reserved.
+            © 2020. SSIPR. Hakcipta Terpelihara.
           </p>
         </div>
       </div>

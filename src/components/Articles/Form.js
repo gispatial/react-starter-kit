@@ -26,7 +26,7 @@ const ArticlesForm = ({
   } = useForm({ defaultValues });
 
   return (
-    <Template pageTitle="Form">
+    <Template pageTitle="Terlupa Kata-laluan">
       <Container>
         <Row>
           <Col>
@@ -38,12 +38,12 @@ const ArticlesForm = ({
                   {!!loading && <Alert color="warning">Loading...</Alert>}
 
                   <FormGroup className="mt-3">
-                    <Label for="email" className="required">Email</Label>
+                    <Label for="email" className="required">Emel</Label>
                     <Input
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="jane@doe.com"
+                      placeholder="abdullah@.selangor.gov.my"
                       disabled={loading}
                       invalid={!!(errors.email)}
                       innerRef={register({ required: errorMessages.missingEmail })}
@@ -53,7 +53,7 @@ const ArticlesForm = ({
                   </FormGroup>
 
                   <Button color="primary" disabled={loading} size="lg">
-                    {loading ? 'Loading' : 'Submit' }
+                    {loading ? 'Loading' : 'Hantar' }
                   </Button>
                 </Form>
               </CardBody>

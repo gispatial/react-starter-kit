@@ -35,7 +35,7 @@ exports[`<Header /> renders correctly 1`] = `
           fill="#fff"
         />
       </svg>
-      ReactStarterKit
+      SSIPR
     </a>
     <button
       aria-label="Toggle navigation"
@@ -63,7 +63,7 @@ exports[`<Header /> renders correctly 1`] = `
             onClick={[Function]}
           >
             <span>
-              Home
+              Dashboard
             </span>
           </a>
         </li>
@@ -76,7 +76,7 @@ exports[`<Header /> renders correctly 1`] = `
             onClick={[Function]}
           >
             <span>
-              Articles
+              Profil
             </span>
           </a>
         </li>
@@ -89,7 +89,7 @@ exports[`<Header /> renders correctly 1`] = `
             onClick={[Function]}
           >
             <span>
-              Form
+              Lupa Katalaluan
             </span>
           </a>
         </li>

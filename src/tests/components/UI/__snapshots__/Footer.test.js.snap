@@ -16,7 +16,7 @@ exports[`<Footer /> renders correctly 1`] = `
         <p
           className="text-center text-secondary"
         >
-          © ReactStarterKit. All Rights Reserved.
+          © 2020. SSIPR. Hakcipta Terpelihara.
         </p>
       </div>
     </div>

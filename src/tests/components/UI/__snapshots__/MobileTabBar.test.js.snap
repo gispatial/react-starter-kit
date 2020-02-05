@@ -63,7 +63,7 @@ exports[`<MobileTabBar /> renders correctly 1`] = `
           />
         </svg>
         <span>
-          Articles
+          Profil
         </span>
       </a>
     </li>
@@ -93,7 +93,7 @@ exports[`<MobileTabBar /> renders correctly 1`] = `
           />
         </svg>
         <span>
-          Form
+          Katalaluan
         </span>
       </a>
     </li>
